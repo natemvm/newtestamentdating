@@ -8,7 +8,7 @@
     font-family: 'Roboto', sans-serif;
     text-align: center;
 }
-.navbar {
+.sidebar {
     font-size: 20px;
     position: fixed;
     left: 0;
@@ -16,12 +16,18 @@
     height: 100%;
     background: #042331;
 }
-header{
-    font-size: 25px;
-    margin-top: 20;
-    color: aliceblue;
+.sidebar li{
+    margin: 28;
 }
-li{
-    margin: 25;
-    color: aliceblue;
+.sidebar ul a{
+    color:azure;
+}
+.sidebar header{
+    font-size: 25px;
+    margin-top: 0;
+    color:azure;
+    text-align: center;
+    line-height: 80px;
+    background-color: #063146;
+    user-select: none;
 }
